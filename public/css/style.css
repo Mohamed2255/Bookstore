@@ -1,0 +1,118 @@
+body
+{
+font-family:'Source Sans Pro', sans-serif;;
+font-size: bold;
+}
+.cover
+{
+background-image: url(../images/full-background.png);
+background-size:cover;
+height: 100vh;
+position: relative;
+}
+.cover .inps
+{
+width: 300px;
+color: #fff;
+position: absolute;
+top: 50%;
+left: 50%;
+transform:translate(-50%,-50%);
+}
+.cover.btn1
+{
+color: #0f76bc;
+}
+
+.navbar-brand img
+{
+width:70px;
+}
+.navbar h1
+{
+margin:0 auto;
+color: #0f76bc;
+}
+.navbar span
+{
+color: #f35929;
+}
+.price
+{
+color: darkgreen;
+}
+/* Admin page style */
+.adminCover
+{
+    background-image: url('../images/5918.jpg');
+    background-size:cover;
+    height: 100vh; 
+}
+.adminIps
+{
+    max-width: 700px;
+    margin: auto;
+}
+.admin
+{
+    color: #fff !important;
+}
+.admin-text
+{
+    color:#17a2b8;
+}
+/*contact us*/
+.myform
+{
+text-align: center;
+margin-top: 100px;
+}
+.myform h2
+{
+font-weight: 40px;
+font-size: bold;
+}
+.myform input {
+width: 50%;
+padding: 12px 20px;
+margin-top: 20px;
+box-sizing:border-box;
+border: 1px solid  #f35929 ;
+border-radius: 4px;   
+}
+textarea {
+width: 50%;
+margin-top: 20px;    
+height: 150px;
+padding: 12px 20px;
+box-sizing: border-box;
+border: 1px solid #f35929;
+border-radius: 4px;
+resize: none;
+}
+.btn3
+{
+margin-top: 10px;
+background-color: #f35929;
+padding: 10px 20px;
+border:1px solid #fff;
+font-size:15px;
+color: #fff;   
+}
+/*footer*/
+.footer
+{
+height: 150px;
+text-align: center;
+background-color: #333333;
+margin-top:20px;
+}
+.footerp
+{
+margin-top: 50px;
+color: #fff;
+}
+.footer span
+{
+color:#f35929; 
+}
